@@ -2,6 +2,8 @@
   "name": "travel-along",
   "version": "1.0.0",
   "dependencies": {
+    "browser-sync": "^2.18.6",
+    "browsersync": "0.0.1-security",
     "jquery": "^3.1.1",
     "normalize.css": "^5.0.0"
   },
