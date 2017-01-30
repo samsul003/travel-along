@@ -24,6 +24,7 @@
     @mixin atSmall {
         font-size: 4.8rem;
     }
+    
   }
 
   &__subtitle {
