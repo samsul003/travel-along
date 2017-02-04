@@ -4,14 +4,14 @@ module.exports = {
     path: "./app/postcss/scripts",
     filename: "app.js"
   },
-  modules: {
+  module: {
     loaders: [
       {
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
-          pressets: ['es2015']
+          presets: ['es2015']
         },
-        test: /\.js&/,
+        test: /\.js$/,
         exclude: /node_modules/
       }
     ]
