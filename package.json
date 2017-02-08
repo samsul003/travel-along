@@ -6,6 +6,7 @@
     "browsersync": "0.0.1-security",
     "jquery": "^3.1.1",
     "jquery-smooth-scroll": "^2.1.2",
+    "lazysizes": "^3.0.0-rc3",
     "normalize.css": "^5.0.0",
     "waypoints": "^4.0.1"
   },
