@@ -16,7 +16,7 @@ class StickyHeader {
   }
 
   refreshWaypoints() {
-    this.lazyImages.on(function() {
+    this.lazyImages.on('load', function() {
       Waypoint.refreshAll();
     });
   }
